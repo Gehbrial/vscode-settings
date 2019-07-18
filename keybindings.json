@@ -1,0 +1,71 @@
+// Place your key bindings in this file to overwrite the defaults
+
+[
+  // Go to next file tab when text editor has focus
+  {
+    "key": "ctrl+pageup",
+    "command": "workbench.action.nextEditor"
+  },
+  // Go to next terminal tab when terminal has focus
+  {
+    "key": "ctrl+pageup",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  // Go to previous file tab when text editor has focus
+  {
+    "key": "ctrl+pagedown",
+    "command": "workbench.action.previousEditor"
+  },
+  // Go to previous terminal tab when terminal has focus
+  {
+    "key": "ctrl+pagedown",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  // Open a new terminal
+  {
+    "key": "ctrl+t", // 't' for 'terminal'
+    "command": "workbench.action.terminal.new"
+  },
+  // Open a new terminal tab when terminal has focus
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  // Display hover content
+  {
+    "key": "alt+p", // 'p' for 'preview'
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  // Give focus to text editor
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  // Give focus to terminal when text editor has focus
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  // Display parameter hints
+  {
+    "key": "alt+h", // 'h' for 'hint'
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  // Display suggestions
+  {
+    "key": "alt+s", // 's' for 'suggestions'
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s",
+    "command": "toggleSuggestionDetails",
+    "when": "suggestWidgetVisible && textInputFocus"
+  }
+]
