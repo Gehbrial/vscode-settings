@@ -25,7 +25,7 @@
   },
   // Open a new terminal
   {
-    "key": "ctrl+t", // 't' for 'terminal'
+    "key": "ctrl+t",
     "command": "workbench.action.terminal.new"
   },
   // Open a new terminal tab when terminal has focus
@@ -36,30 +36,30 @@
   },
   // Display hover content
   {
-    "key": "alt+p", // 'p' for 'preview'
+    "key": "alt+p",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
   // Give focus to text editor
   {
-    "key": "ctrl+`",
+    "key": "ctrl+[Quote]",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   // Give focus to terminal when text editor has focus
   {
-    "key": "ctrl+`",
+    "key": "ctrl+[Quote]",
     "command": "workbench.action.terminal.focus",
     "when": "editorTextFocus"
   },
   // Display parameter hints
   {
-    "key": "alt+h", // 'h' for 'hint'
+    "key": "alt+h",
     "command": "editor.action.triggerParameterHints",
     "when": "editorHasSignatureHelpProvider && editorTextFocus"
   },
   // Display suggestions
   {
-    "key": "alt+s", // 's' for 'suggestions'
+    "key": "alt+s",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
@@ -67,5 +67,14 @@
     "key": "alt+s",
     "command": "toggleSuggestionDetails",
     "when": "suggestWidgetVisible && textInputFocus"
+  },
+  // 
+  {
+    "key": "ctrl+shift+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.tasks.runTask"
   }
 ]
