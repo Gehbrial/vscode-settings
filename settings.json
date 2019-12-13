@@ -1,6 +1,8 @@
 {
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "workbench.colorTheme": "Material Theme High Contrast",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
+  "editor.formatOnSave": true
 }
