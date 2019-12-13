@@ -1,79 +1,74 @@
-// Place your key bindings in this file to overwrite the defaults
-
 [
-  // Go to next file tab when text editor has focus
   {
+    "_description": "Go to next file tab when text editor has focus",
     "key": "ctrl+pageup",
     "command": "workbench.action.nextEditor"
   },
-  // Go to next terminal tab when terminal has focus
   {
+    "_description": "Go to next terminal tab when terminal has focus",
     "key": "ctrl+pageup",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
   },
-  // Go to previous file tab when text editor has focus
   {
+    "_description": "Go to previous file tab when text editor has focus",
     "key": "ctrl+pagedown",
     "command": "workbench.action.previousEditor"
   },
-  // Go to previous terminal tab when terminal has focus
   {
+    "_description": "Go to previous terminal tab when terminal has focus",
     "key": "ctrl+pagedown",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
   },
-  // Open a new terminal
   {
+    "_description": "Open a new terminal",
     "key": "ctrl+t",
     "command": "workbench.action.terminal.new"
   },
-  // Open a new terminal tab when terminal has focus
   {
+    "_description": "Open a new terminal tab when terminal has focus",
     "key": "ctrl+t",
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
-  // Display hover content
   {
+    "_description": "Display hover content",
     "key": "alt+p",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
-  // Give focus to text editor
   {
+    "_description": "Give focus to text editor",
     "key": "ctrl+[Quote]",
     "command": "workbench.action.focusActiveEditorGroup"
   },
-  // Give focus to terminal when text editor has focus
   {
+    "_description": "Give focus to terminal when text editor has focus",
     "key": "ctrl+[Quote]",
     "command": "workbench.action.terminal.focus",
     "when": "editorTextFocus"
   },
-  // Display parameter hints
   {
+    "_description": "Display parameter hints",
     "key": "alt+h",
     "command": "editor.action.triggerParameterHints",
     "when": "editorHasSignatureHelpProvider && editorTextFocus"
   },
-  // Display suggestions
   {
+    "_description": "Display suggestions",
     "key": "alt+s",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
   {
+    "_description": "Display suggestions",
     "key": "alt+s",
     "command": "toggleSuggestionDetails",
     "when": "suggestWidgetVisible && textInputFocus"
   },
-  // 
   {
-    "key": "ctrl+shift+t",
-    "command": "-workbench.action.reopenClosedEditor"
-  },
-  {
+    "_description": "Run task",
     "key": "ctrl+shift+t",
     "command": "workbench.action.tasks.runTask"
   }
