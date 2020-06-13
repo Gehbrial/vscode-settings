@@ -34,7 +34,7 @@
   },
   {
     "_description": "Display hover content",
-    "key": "alt+p",
+    "key": "alt+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
@@ -48,12 +48,6 @@
     "key": "ctrl+[Quote]",
     "command": "workbench.action.terminal.focus",
     "when": "editorTextFocus"
-  },
-  {
-    "_description": "Display parameter hints",
-    "key": "alt+h",
-    "command": "editor.action.triggerParameterHints",
-    "when": "editorHasSignatureHelpProvider && editorTextFocus"
   },
   {
     "_description": "Display suggestions",

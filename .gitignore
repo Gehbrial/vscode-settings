@@ -1,6 +1,7 @@
 */
 /*
 !.gitignore
+!.gitattributes
 !keybindings.json
 !settings.json
 !snippets
